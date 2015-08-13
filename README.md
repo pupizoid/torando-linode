@@ -1,5 +1,5 @@
 # Tornado-linode
-Linode api client written on python, which is available to use in tornado framework
+Non-blocking Linode api client written on python based on tornado framework
 
 # Usage
 
