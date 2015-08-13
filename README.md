@@ -4,7 +4,7 @@ Non-blocking Linode api client written on python based on tornado framework
 # Usage
 
 ```
-class TestLinode(base.BaseHandler):
+class TestLinode(tornado.web.RequestHandler):
     @gen.coroutine
     def get(self):
         l = linode.LinodeCommand()
